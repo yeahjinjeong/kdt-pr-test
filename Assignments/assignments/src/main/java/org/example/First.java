@@ -45,5 +45,17 @@ public class First {
         // 2. 연도/400이 나누어 떨어진다.
         // 3. 둘 중 하나만 해당되도 윤년이다.
         int a = 2024;
+      
+        // 나지영
+        int a = 20;
+        int b = 21;
+        int c = ++a + b--;
+        int d = --c - 3;
+        System.out.println("a = " + a + ", b = " + b + ", c = " + c + ", d = " + d);
+        // a = ?, b = ?, c = ?, d = ?
+
+        System.out.println(true + "hello" + false);     // 출력 화면
+        System.out.println(90 + 80 + "hi");             // 출력 화면
+        System.out.println('g' + 'r' + 'a' + 'm');      // 출력 화면
     }
 }
