@@ -16,6 +16,21 @@ public class First {
         double e = (a + b + c) / 3;
         System.out.println(d == e);     // true or false?
 
+        // 정예진 주석을 풀지 않고 답란에 답을 적어주세요!
+        // 1번
+        /*
+        char x = 'E';
+        System.out.println(x > 97 ? ++x : x++); // 1-1번 답 :
+        System.out.println(x); // 1-2번 답 :
+        System.out.println();
+        */
+
+        // 2번
+        /*
+        double y = 22;
+        final int z = 3;
+        System.out.println(y/z == 7 ? z++ : z % 3); // 2번 답 :
+        */
 
     }
 }
