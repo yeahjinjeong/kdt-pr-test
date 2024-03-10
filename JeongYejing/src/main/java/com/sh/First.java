@@ -51,7 +51,7 @@ public class First {
         // 2030년의 J의 나이를 출력하세요.
         // J는 32살 입니다.
 //        int future = 2030;
-//        System.out.println("J는 " + (32 + future) + "살 입니다.");
+//        System.out.println("J는 " + (32 + future - 2024) + "살 입니다.");
 
         // 문제 2
         // a가 윤년이면 '윤년O', 아니면 '윤년X'로 출력하세요.
