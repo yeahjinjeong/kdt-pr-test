@@ -16,19 +16,17 @@ public class First {
         double e = (a + b + c) / 3;
         System.out.println(d == e);     // true or false?
 
-
         // 박지수
         //1~12까지는 "오전", 13~24까지는 "오후"라고 표기하고 그 외의 숫자는 0으로 출력
 
         //숫자를 정수로 변환 후 0보다 크고 100보다 작을경우 정수로 변환한 값 출력. 100이상일 경우 50으로 감소
 
-
         // 정예진 주석을 풀지 않고 답란에 답을 적어주세요!
         // 1번
         /*
         char x = 'E';
-        System.out.println(x > 97 ? ++x : x++); // 1-1번 답 :
-        System.out.println(x); // 1-2번 답 :
+        System.out.println(x > 97 ? ++x : x++); // 1-1번 답 : E
+        System.out.println(x); // 1-2번 답 : F
         System.out.println();
         */
 
@@ -37,7 +35,7 @@ public class First {
         /*
         double y = 22;
         final int z = 3;
-        System.out.println(y/z == 7 ? z++ : z % 3); // 2번 답 :
+        System.out.println(y/z == 7 ? z++ : z % 3); // 2번 답 : 오류가 납니다.
         */
 
         // 박수빈
@@ -53,7 +51,7 @@ public class First {
         // 2. 연도/400이 나누어 떨어진다.
         // 3. 둘 중 하나만 해당되도 윤년이다.
         int a = 2024;
-      
+
         // 나지영
         int a = 20;
         int b = 21;
