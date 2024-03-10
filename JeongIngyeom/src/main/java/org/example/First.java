@@ -15,7 +15,7 @@ public class First {
 
         double d = 123.456;
         d = (int) d;
-        System.out.println(d > 0 && d < 100 ? d : 50);
+        System.out.println(d > 0 && d < 100 ? d : (d = 50));
 
         /*
         정예진
@@ -50,10 +50,10 @@ public class First {
         int a = 2024;
         */
         int future = 2030;
-        System.out.println(32 + (future - 2024));
+        System.out.println(32 + (future - 2024));       // 38
 
         int a = 2024;
-        System.out.println(a % 4 == 0 && a % 100 != 0 || a % 400 == 0 ? "윤년O" : "윤년X");
+        System.out.println(a % 4 == 0 && a % 100 != 0 || a % 400 == 0 ? "윤년O" : "윤년X");     // 윤년O
 
         /*
         나지영
