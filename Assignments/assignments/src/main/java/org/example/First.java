@@ -51,6 +51,8 @@ public class First {
         2030년의 J의 나이를 출력하세요.
         J는 32살 입니다.
         int future = 2030;
+        int age = future - 2024 + 32;
+        System.out.println("J의 나이 : " + age);
 
         문제 2
         a가 윤년이면 '윤년O', 아니면 '윤년X'로 출력하세요.
@@ -59,10 +61,16 @@ public class First {
         2. 연도/400이 나누어 떨어진다.
         3. 둘 중 하나만 해당되도 윤년이다.
         int a = 2024;
+
+        System.out.println(((a % 4 == 0) && (a % 100 != 0) || (a % 400 == 0)) ? "윤년O" : "윤년X");
+      
+        // 나지영
+
         */
 
         /*
         나지영
+
 
         int a = 20;
         int b = 21;
