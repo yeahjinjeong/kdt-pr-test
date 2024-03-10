@@ -16,6 +16,36 @@ public class First {
         double e = (a + b + c) / 3;
         System.out.println(d == e);     // true or false?
 
+        // 정예진 주석을 풀지 않고 답란에 답을 적어주세요!
+        // 1번
+        /*
+        char x = 'E';
+        System.out.println(x > 97 ? ++x : x++); // 1-1번 답 :
+        System.out.println(x); // 1-2번 답 :
+        System.out.println();
+        */
+
+        // 2번
+        /*
+        double y = 22;
+        final int z = 3;
+        System.out.println(y/z == 7 ? z++ : z % 3); // 2번 답 :
+        */
+
+        // 박수빈
+        //문제 1
+        // 2030년의 J의 나이를 출력하세요.
+        // J는 32살 입니다.
+        int future = 2030;
+
+        // 문제 2
+        // a가 윤년이면 '윤년O', 아니면 '윤년X'로 출력하세요.
+        // 윤년 계산법
+        // 1. 연도/4가 나누어 떨어지고 연도/100이 나누어 떨어지지 않는다.
+        // 2. 연도/400이 나누어 떨어진다.
+        // 3. 둘 중 하나만 해당되도 윤년이다.
+        int a = 2024;
+      
         // 나지영
         int a = 20;
         int b = 21;
@@ -27,6 +57,5 @@ public class First {
         System.out.println(true + "hello" + false);     // 출력 화면
         System.out.println(90 + 80 + "hi");             // 출력 화면
         System.out.println('g' + 'r' + 'a' + 'm');      // 출력 화면
-
     }
 }
