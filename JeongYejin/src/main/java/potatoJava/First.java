@@ -1,4 +1,4 @@
-package com.sh;
+package potatoJava;
 
 public class First {
 
