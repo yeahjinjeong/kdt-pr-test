@@ -1,6 +1,7 @@
-package com.sh;
+package potatoJava;
 
-public class FirstStudy {
+// 1주차 스터디 2024/03/17
+public class Study01 {
     public static void main(String[] args) {
         // 정인겸
         int i = Integer.MAX_VALUE;      // 21_4748_3648
@@ -33,6 +34,7 @@ public class FirstStudy {
         // final 변수는 변경할 수 없다.
         */
 
+        /*
         // 박수빈
         //문제 1
         // 2030년의 J의 나이를 출력하세요.
@@ -50,18 +52,21 @@ public class FirstStudy {
         // 3. 둘 중 하나만 해당되도 윤년이다.
         int a = 2024;
         System.out.println((a%4==0 && a%100!=0) || (a%400==0)? "윤년O" : "윤년X");
+        */
 
         // 나지영
+        /*
         int a = 20;
         int b = 21;
-        int c = ++a + b--;
-        int d = --c - 3;
+        int c = ++a + b--;  // a=21, b=21, c=42
+        int d = --c - 3;    // c=41, d=38
         System.out.println("a = " + a + ", b = " + b + ", c = " + c + ", d = " + d);
         // a = 21, b = 20, c = 41, d = 38
 
         System.out.println(true + "hello" + false);     // truehellofalse
         System.out.println(90 + 80 + "hi");             // 170hi
-        System.out.println('g' + 'r' + 'a' + 'm');      // 423
+        System.out.println('g' + 'r' + 'a' + 'm');      // 423  // 103 + 114 + 97 + 109
+        */
 
     }
 }
